@@ -167,9 +167,9 @@
 
 						<table style="width:50%" class="border-collapse mt-2">
 							<tr>
-								<td class="pointer-events-none text-left"> 	<vs-checkbox color="dark" icon-pack="feather" class="mt-2" :icon="datosEstudio.luz ==0 ? 'icon-x' : 'icon-check'" v-model="check" disabled="true"> <b> Luz </b></vs-checkbox> </td>
-								<td class="pointer-events-none text-left"> 	<vs-checkbox color="dark" icon-pack="feather" class="mt-2" :icon="datosEstudio.agua ==0 ? 'icon-x' : 'icon-check'" v-model="check" disabled="true"><b> Agua</b> </vs-checkbox> </td>
-								<td class="pointer-events-none text-left"> 	<vs-checkbox color="dark" icon-pack="feather" class="mt-2" :icon="datosEstudio.drenaje ==0 ? 'icon-x' : 'icon-check'" v-model="check" disabled="true"><b>Drenaje</b></vs-checkbox> </td>
+								<td class="pointer-events-none text-left"> 	<vs-checkbox color="dark" icon-pack="feather" class="mt-2" :icon="datosEstudio.luz ==1 ? 'icon-check' : 'icon-x'" v-model="check" disabled="true"> <b> Luz </b></vs-checkbox> </td>
+								<td class="pointer-events-none text-left"> 	<vs-checkbox color="dark" icon-pack="feather" class="mt-2" :icon="datosEstudio.agua ==1 ? 'icon-check' : 'icon-x'" v-model="check" disabled="true"><b> Agua</b> </vs-checkbox> </td>
+								<td class="pointer-events-none text-left"> 	<vs-checkbox color="dark" icon-pack="feather" class="mt-2" :icon="datosEstudio.drenaje ==1 ? 'icon-check' : 'icon-x'" v-model="check" disabled="true"><b>Drenaje</b></vs-checkbox> </td>
 							</tr>
 						</table>
 					<vs-divider/>
