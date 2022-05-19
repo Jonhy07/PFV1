@@ -4,7 +4,7 @@
 
 			<div class = "demo-alignment">
 				<div class="vx-col md:w-1/3 w-full mt-5">
-            		<vs-button @click="$router.push('/apadrinamiento/estudiosocio/'+id)" type="border" radius class="w-full" icon-pack="feather" icon="icon-corner-up-left" icon-no-border></vs-button>
+            		<vs-button @click="$router.push('/apadrinamiento/nino/')" type="border" radius class="w-full" icon-pack="feather" icon="icon-corner-up-left" icon-no-border></vs-button>
         		</div>
 				<div class="flex items-center">
 				<h2>Nuevo estudio socioeconómico</h2>
@@ -335,7 +335,7 @@ export default {
 					})
 				}
 			})
-			this.$router.push('/apadrinamiento/estudiosocio/'+this.elNino);
+			this.$router.push('/apadrinamiento/nino/');
 		},
 		async index2(){
 			let me = this;
