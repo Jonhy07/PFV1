@@ -23,7 +23,7 @@
             <span>Cantidad de abono(Q)</span>
           </div>
           <div class="vx-col sm:w-2/3 w-full">
-            <vs-input class="w-full"  v-model="cantidad" name="cantidad" v-validate="'required|numeric|max:5'"/>
+            <vs-input class="w-full"  v-model="cantidad" name="cantidad" v-validate="'required|max:5'"/>
             <span class="text-danger text-sm" v-show="errors.has('cantidad')">{{ errors.first('cantidad') }}</span>
           </div>
         </div>
